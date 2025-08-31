@@ -1,0 +1,62 @@
+/* css/assessment.css */
+
+.assessment-main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.question-block {
+  background: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-block p {
+  font-weight: bold;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+#resultContainer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #e0ffe0;
+  border: 1px solid #00aa00;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .assessment-main {
+    padding: 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .question-block {
+    padding: 0.7rem;
+  }
+  .submit-btn {
+    width: 100%;
+  }
+}
